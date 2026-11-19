@@ -1,0 +1,257 @@
+[
+  {
+    "id": "law",
+    "title": "Chicago Law Firms",
+    "title_ar": "مكاتب المحاماة في شيكاغو",
+    "industry": "Legal Services",
+    "industry_ar": "الخدمات القانونية",
+    "market": "Chicago, Illinois, USA",
+    "market_ar": "شيكاغو، إلينوي، الولايات المتحدة",
+    "source_count": 41,
+    "summary": "A targeted prospect research sample for Chicago law firms, with senior decision-maker identification and structured company details.",
+    "summary_ar": "نموذج بحث موجّه عن العملاء المحتملين لمكاتب المحاماة في شيكاغو، مع تحديد أصحاب القرار الرئيسيين وتنظيم بيانات الشركات.",
+    "caveat": "The source workbook marks all 41 email records as “Verified” and lists Apollo as the source. This public preview reproduces the workbook label; it does not independently re-check current mailbox deliverability.",
+    "caveat_ar": "يضع ملف المصدر علامة «تم التحقق» على عناوين البريد الـ41 ويذكر Apollo كمصدر. تعرض هذه المعاينة حالة الملف كما وردت، ولا تعيد فحص إمكانية تسليم الرسائل حالياً.",
+    "source": "Apollo (as recorded in the workbook)",
+    "source_ar": "Apollo (كما هو مسجل في ملف العمل)",
+    "preview_count": 6,
+    "rows": [
+      {
+        "company": "Cogan & Power, P.C.",
+        "decision_maker": "Thomas Prindable",
+        "job_title": "Managing Partner",
+        "location": "Chicago, Illinois",
+        "website": "coganpower.com",
+        "email_masked": "t••••@coganpower.com",
+        "phone_masked": "+1 ••• ••• 2500",
+        "linkedin_masked": "linkedin.com/in/••••••",
+        "email_status": "Verified"
+      },
+      {
+        "company": "Hurley McKenna & Mertz",
+        "decision_maker": "Christopher Hurley",
+        "job_title": "Founding Partner",
+        "location": "Chicago, Illinois",
+        "website": "hurley-law.com",
+        "email_masked": "c••••@hurley-law.com",
+        "phone_masked": "+1 ••• ••• 4900",
+        "linkedin_masked": "linkedin.com/in/••••••",
+        "email_status": "Verified"
+      },
+      {
+        "company": "Smith Blake Hill LLC",
+        "decision_maker": "Jenny Blake",
+        "job_title": "Founding Partner",
+        "location": "Chicago, Illinois",
+        "website": "sbh-law.com",
+        "email_masked": "j••••@sbh-law.com",
+        "phone_masked": "+1 ••• ••• 8055",
+        "linkedin_masked": "linkedin.com/in/••••••",
+        "email_status": "Verified"
+      },
+      {
+        "company": "Cheng Cohen LLC",
+        "decision_maker": "Amy Cheng",
+        "job_title": "Founding Partner",
+        "location": "Chicago, Illinois",
+        "website": "chengcohen.com",
+        "email_masked": "a••••@chengcohen.com",
+        "phone_masked": "+1 ••• ••• 1701",
+        "linkedin_masked": "linkedin.com/in/••••••",
+        "email_status": "Verified"
+      },
+      {
+        "company": "Vitale, Vickrey, Niro, Solon & Gasey LLP",
+        "decision_maker": "Robert Vitale",
+        "job_title": "Founding Partner",
+        "location": "Chicago, Illinois",
+        "website": "vvnlaw.com",
+        "email_masked": "v••••@vvnlaw.com",
+        "phone_masked": "+1 ••• ••• 0733",
+        "linkedin_masked": "linkedin.com/in/••••••",
+        "email_status": "Verified"
+      },
+      {
+        "company": "Wise Law Offices, LLC",
+        "decision_maker": "David Wise",
+        "job_title": "Founding Partner",
+        "location": "Chicago, Illinois",
+        "website": "wiselawoffices.com",
+        "email_masked": "d••••@wiselawoffices.com",
+        "phone_masked": "+1 ••• ••• 2040",
+        "linkedin_masked": "linkedin.com/in/••••••",
+        "email_status": "Verified"
+      }
+    ]
+  },
+  {
+    "id": "realestate",
+    "title": "New York Real Estate Agencies",
+    "title_ar": "وكالات العقارات في نيويورك",
+    "industry": "Real Estate",
+    "industry_ar": "العقارات",
+    "market": "New York, USA",
+    "market_ar": "نيويورك، الولايات المتحدة",
+    "source_count": 34,
+    "summary": "A decision-maker-focused research sample for real estate businesses in the New York market, organized for prospecting workflows.",
+    "summary_ar": "نموذج بحث يركز على أصحاب القرار في شركات العقارات بسوق نيويورك، مع تنظيم البيانات لتناسب سير عمل البحث عن العملاء المحتملين.",
+    "caveat": "The source workbook marks all 34 email records as “Verified” and lists Apollo as the email-verification source. This public preview reflects the workbook status only; it is not a fresh deliverability test.",
+    "caveat_ar": "يضع ملف المصدر علامة «تم التحقق» على عناوين البريد الـ34 ويذكر Apollo كمصدر للتحقق. تعكس المعاينة حالة الملف فقط، وليست اختباراً حديثاً لإمكانية التسليم.",
+    "source": "Apollo (as recorded in the workbook)",
+    "source_ar": "Apollo (كما هو مسجل في ملف العمل)",
+    "preview_count": 6,
+    "rows": [
+      {
+        "company": "Nomad",
+        "decision_maker": "Matthew Derose",
+        "job_title": "Co-Founder & CEO",
+        "location": "New York, New York",
+        "website": "nomadgroup.io",
+        "email_masked": "m••••@nomadgroup.io",
+        "phone_masked": "+1 ••• ••• 3158",
+        "linkedin_masked": "linkedin.com/in/••••••",
+        "email_status": "Verified"
+      },
+      {
+        "company": "Casa Blanca",
+        "decision_maker": "Hannah Bomze",
+        "job_title": "Co-founder and CEO",
+        "location": "New York, New York",
+        "website": "casa-blanca.com",
+        "email_masked": "h••••@casa-blanca.com",
+        "phone_masked": "+1 ••• ••• 3466",
+        "linkedin_masked": "linkedin.com/in/••••••",
+        "email_status": "Verified"
+      },
+      {
+        "company": "BASE Realty Group",
+        "decision_maker": "Michael Schattner",
+        "job_title": "Founder & President",
+        "location": "New York, New York",
+        "website": "baserg.com",
+        "email_masked": "m••••@baserg.com",
+        "phone_masked": "+1 ••• ••• 4266",
+        "linkedin_masked": "linkedin.com/in/••••••",
+        "email_status": "Verified"
+      },
+      {
+        "company": "Flateau Realty Corp.",
+        "decision_maker": "Richard Flateau",
+        "job_title": "Founder, President & CEO",
+        "location": "Brooklyn, New York",
+        "website": "flateaurealty.com",
+        "email_masked": "r••••@flateaurealty.com",
+        "phone_masked": "+1 ••• ••• 2732",
+        "linkedin_masked": "linkedin.com/in/••••••",
+        "email_status": "Verified"
+      },
+      {
+        "company": "CORE Real Estate",
+        "decision_maker": "Shaun Osher",
+        "job_title": "Founder and CEO",
+        "location": "New York, New York",
+        "website": "corenyc.com",
+        "email_masked": "s••••@corenyc.com",
+        "phone_masked": "+1 ••• ••• 9609",
+        "linkedin_masked": "linkedin.com/in/••••••",
+        "email_status": "Verified"
+      },
+      {
+        "company": "Ivey North",
+        "decision_maker": "Abdul Muid",
+        "job_title": "Founder + CEO",
+        "location": "Brooklyn, New York",
+        "website": "iveynorth.com",
+        "email_masked": "a••••@iveynorth.com",
+        "phone_masked": "+1 ••• ••• 9216",
+        "linkedin_masked": "linkedin.com/in/••••••",
+        "email_status": "Verified"
+      }
+    ]
+  },
+  {
+    "id": "dental",
+    "title": "Texas Dental Clinics",
+    "title_ar": "عيادات الأسنان في تكساس",
+    "industry": "Dental & Healthcare",
+    "industry_ar": "طب الأسنان والرعاية الصحية",
+    "market": "Texas, USA",
+    "market_ar": "تكساس، الولايات المتحدة",
+    "source_count": 27,
+    "summary": "A clinic and decision-maker research sample across Texas, with company websites, business contact fields and professional profile references.",
+    "summary_ar": "نموذج بحث عن العيادات وأصحاب القرار في أنحاء تكساس، يتضمن مواقع الشركات وحقول الاتصال المهنية وروابط الملفات المهنية.",
+    "caveat": "The source workbook has no dedicated email-verification status field, so email status is shown as “Not independently verified”. Two phone values and one website field are blank in the original file. The first row’s decision-maker name and email appear potentially misaligned; the row is retained exactly as supplied and should be reviewed.",
+    "caveat_ar": "لا يحتوي ملف المصدر على حقل مستقل لحالة التحقق من البريد، لذلك تظهر الحالة «لم يتم التحقق بشكل مستقل». توجد قيمتان فارغتان للهاتف وحقل موقع إلكتروني واحد فارغ في الملف الأصلي. قد لا يتطابق اسم صاحب القرار والبريد في الصف الأول؛ تم الاحتفاظ بالصف كما ورد ويُنصح بمراجعته.",
+    "source": "Source workbook (verification source not provided)",
+    "source_ar": "ملف المصدر (لم يتم تحديد مصدر التحقق)",
+    "preview_count": 6,
+    "rows": [
+      {
+        "company": "AFTER HOURS DENTISTRY",
+        "decision_maker": "Jeffrey Ludlow",
+        "job_title": "Owner/CEO",
+        "location": "McKinney, Texas",
+        "website": "afterhoursdentistry.com",
+        "email_masked": "h••••@afterhoursdentistry.com",
+        "phone_masked": "+1 ••• ••• 4333",
+        "linkedin_masked": "linkedin.com/in/••••••",
+        "email_status": "Not independently verified"
+      },
+      {
+        "company": "Forest Family Dentistry",
+        "decision_maker": "Robin Bethell",
+        "job_title": "Founder",
+        "location": "Austin, Texas",
+        "website": "forestfamily.com",
+        "email_masked": "d••••@forestfamily.com",
+        "phone_masked": "+1 ••• ••• 3424",
+        "linkedin_masked": "linkedin.com/in/••••••",
+        "email_status": "Not independently verified"
+      },
+      {
+        "company": "GLO Dental Group",
+        "decision_maker": "Christian Dominguez",
+        "job_title": "Business Owner & CEO",
+        "location": "Houston, Texas",
+        "website": "glodentalgroup.com",
+        "email_masked": "c••••@glodental.com",
+        "phone_masked": "+1 ••• ••• 0460",
+        "linkedin_masked": "linkedin.com/in/••••••",
+        "email_status": "Not independently verified"
+      },
+      {
+        "company": "Family & Cosmetic Dentistry",
+        "decision_maker": "Shirley Parikh",
+        "job_title": "Owner Dentist",
+        "location": "Houston, Texas",
+        "website": "cooldentist.com",
+        "email_masked": "s••••@cooldentist.com",
+        "phone_masked": "Not found",
+        "linkedin_masked": "linkedin.com/in/••••••",
+        "email_status": "Not independently verified"
+      },
+      {
+        "company": "Grand Oaks Dentistry",
+        "decision_maker": "Dimple Sharma",
+        "job_title": "Founder",
+        "location": "Austin, Texas",
+        "website": "grandoaksdentistry.com",
+        "email_masked": "d••••@grandoaksdentistry.com",
+        "phone_masked": "+1 ••• ••• 1666",
+        "linkedin_masked": "linkedin.com/in/••••••",
+        "email_status": "Not independently verified"
+      },
+      {
+        "company": "MIG Dentistry",
+        "decision_maker": "Martha Garcia",
+        "job_title": "Owner",
+        "location": "Dallas, Texas",
+        "website": "migdentistry.com",
+        "email_masked": "m••••@migdentistry.com",
+        "phone_masked": "+1 ••• ••• 0204",
+        "linkedin_masked": "linkedin.com/in/••••••",
+        "email_status": "Not independently verified"
+      }
+    ]
+  }
+]
