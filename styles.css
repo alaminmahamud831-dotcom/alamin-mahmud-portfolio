@@ -21,7 +21,14 @@ body[dir="rtl"] h1,body[dir="rtl"] h2,body[dir="rtl"] h3{font-family:"Noto Sans 
 .site-header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.92);backdrop-filter:blur(16px);border-bottom:1px solid rgba(224,232,239,.9)}
 .nav-shell{height:82px;display:flex;align-items:center;justify-content:space-between;gap:24px}
 .brand{display:flex;align-items:center;gap:12px;min-width:225px}
-.brand-mark{width:48px;height:48px;border-radius:15px;background:var(--navy);display:grid;place-items:center;color:var(--mint);font-family:"Manrope",sans-serif;font-weight:900;font-size:18px;letter-spacing:-.09em;box-shadow:0 8px 18px rgba(16,35,61,.17);flex:none}
+.brand-mark {
+    width: 58px;
+    height: 58px;
+    object-fit: contain;
+    background: transparent;
+    border: none;
+    padding: 0;
+}
 .brand-copy strong{display:block;color:var(--navy);font:800 15px/1.2 "Manrope",sans-serif;letter-spacing:-.03em}
 .brand-copy small{display:block;margin-top:4px;color:#7a8898;font-size:9px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;white-space:nowrap}
 .main-nav{display:flex;align-items:center;gap:clamp(12px,1.8vw,24px)}
