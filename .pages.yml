@@ -1,0 +1,1065 @@
+media:
+- name: images
+  label: Website photos
+  input: assets
+  output: assets
+  extensions:
+  - jpg
+  - jpeg
+  - png
+  - webp
+  categories:
+  - image
+  rename: safe
+content:
+- name: site_content
+  label: Site text and contact details
+  type: file
+  path: data/site-content.json
+  format: json
+  fields:
+  - name: contact
+    label: Contact details
+    type: object
+    fields:
+    - name: name
+      label: Display name
+      type: string
+    - name: email
+      label: Email address
+      type: string
+    - name: whatsapp
+      label: WhatsApp number (international format)
+      type: string
+    - name: linkedin
+      label: LinkedIn profile URL
+      type: string
+    - name: whatsapp_display
+      label: WhatsApp display number
+      type: string
+  - name: en
+    label: English content
+    type: object
+    fields:
+    - name: nav_home
+      label: Nav Home
+      type: string
+    - name: nav_about
+      label: Nav About
+      type: string
+    - name: nav_services
+      label: Nav Services
+      type: string
+    - name: nav_portfolio
+      label: Nav Portfolio
+      type: string
+    - name: nav_process
+      label: Nav Process
+      type: string
+    - name: nav_quality
+      label: Nav Quality
+      type: string
+    - name: nav_tools
+      label: Nav Tools
+      type: string
+    - name: nav_contact
+      label: Nav Contact
+      type: string
+    - name: language_button
+      label: Language Button
+      type: string
+    - name: hero_kicker
+      label: Hero Kicker
+      type: string
+    - name: hero_title_first
+      label: Hero Title First
+      type: string
+    - name: hero_title_second
+      label: Hero Title Second
+      type: string
+    - name: hero_text
+      label: Hero Text
+      type: text
+    - name: hero_cta_contact
+      label: Hero Cta Contact
+      type: string
+    - name: hero_cta_portfolio
+      label: Hero Cta Portfolio
+      type: string
+    - name: hero_trust1
+      label: Hero Trust1
+      type: string
+    - name: hero_trust2
+      label: Hero Trust2
+      type: string
+    - name: hero_trust3
+      label: Hero Trust3
+      type: string
+    - name: hero_photo_label
+      label: Hero Photo Label
+      type: string
+    - name: hero_photo_caption
+      label: Hero Photo Caption
+      type: string
+    - name: home_services_eyebrow
+      label: Home Services Eyebrow
+      type: string
+    - name: home_services_title
+      label: Home Services Title
+      type: string
+    - name: home_services_intro
+      label: Home Services Intro
+      type: text
+    - name: home_projects_eyebrow
+      label: Home Projects Eyebrow
+      type: string
+    - name: home_projects_title
+      label: Home Projects Title
+      type: string
+    - name: home_projects_intro
+      label: Home Projects Intro
+      type: text
+    - name: home_process_eyebrow
+      label: Home Process Eyebrow
+      type: string
+    - name: home_process_title
+      label: Home Process Title
+      type: string
+    - name: home_process_intro
+      label: Home Process Intro
+      type: text
+    - name: home_quality_eyebrow
+      label: Home Quality Eyebrow
+      type: string
+    - name: home_quality_title
+      label: Home Quality Title
+      type: string
+    - name: home_quality_text
+      label: Home Quality Text
+      type: text
+    - name: home_quality_link
+      label: Home Quality Link
+      type: string
+    - name: home_contact_title
+      label: Home Contact Title
+      type: string
+    - name: home_contact_text
+      label: Home Contact Text
+      type: text
+    - name: home_contact_button
+      label: Home Contact Button
+      type: string
+    - name: about_eyebrow
+      label: About Eyebrow
+      type: string
+    - name: about_title
+      label: About Title
+      type: string
+    - name: about_lead
+      label: About Lead
+      type: text
+    - name: about_body1
+      label: About Body1
+      type: text
+    - name: about_body2
+      label: About Body2
+      type: text
+    - name: about_principles_title
+      label: About Principles Title
+      type: string
+    - name: about_principle1
+      label: About Principle1
+      type: string
+    - name: about_principle2
+      label: About Principle2
+      type: string
+    - name: about_principle3
+      label: About Principle3
+      type: string
+    - name: about_principle4
+      label: About Principle4
+      type: string
+    - name: services_eyebrow
+      label: Services Eyebrow
+      type: string
+    - name: services_title
+      label: Services Title
+      type: string
+    - name: services_intro
+      label: Services Intro
+      type: text
+    - name: svc1
+      label: Svc1
+      type: string
+    - name: svc1d
+      label: Svc1D
+      type: string
+    - name: svc2
+      label: Svc2
+      type: string
+    - name: svc2d
+      label: Svc2D
+      type: string
+    - name: svc3
+      label: Svc3
+      type: string
+    - name: svc3d
+      label: Svc3D
+      type: string
+    - name: svc4
+      label: Svc4
+      type: string
+    - name: svc4d
+      label: Svc4D
+      type: string
+    - name: svc5
+      label: Svc5
+      type: string
+    - name: svc5d
+      label: Svc5D
+      type: string
+    - name: svc6
+      label: Svc6
+      type: string
+    - name: svc6d
+      label: Svc6D
+      type: string
+    - name: services_note_title
+      label: Services Note Title
+      type: text
+    - name: services_note_text
+      label: Services Note Text
+      type: text
+    - name: portfolio_eyebrow
+      label: Portfolio Eyebrow
+      type: string
+    - name: portfolio_title
+      label: Portfolio Title
+      type: string
+    - name: portfolio_intro
+      label: Portfolio Intro
+      type: text
+    - name: portfolio_note
+      label: Portfolio Note
+      type: text
+    - name: view_project
+      label: View Project
+      type: string
+    - name: process_eyebrow
+      label: Process Eyebrow
+      type: string
+    - name: process_title
+      label: Process Title
+      type: string
+    - name: process_intro
+      label: Process Intro
+      type: text
+    - name: step1_title
+      label: Step1 Title
+      type: string
+    - name: step1_text
+      label: Step1 Text
+      type: text
+    - name: step2_title
+      label: Step2 Title
+      type: string
+    - name: step2_text
+      label: Step2 Text
+      type: text
+    - name: step3_title
+      label: Step3 Title
+      type: string
+    - name: step3_text
+      label: Step3 Text
+      type: text
+    - name: step4_title
+      label: Step4 Title
+      type: string
+    - name: step4_text
+      label: Step4 Text
+      type: text
+    - name: process_deliverables_title
+      label: Process Deliverables Title
+      type: string
+    - name: deliverable1
+      label: Deliverable1
+      type: string
+    - name: deliverable2
+      label: Deliverable2
+      type: string
+    - name: deliverable3
+      label: Deliverable3
+      type: string
+    - name: deliverable4
+      label: Deliverable4
+      type: string
+    - name: deliverable5
+      label: Deliverable5
+      type: string
+    - name: quality_eyebrow
+      label: Quality Eyebrow
+      type: string
+    - name: quality_title
+      label: Quality Title
+      type: string
+    - name: quality_intro
+      label: Quality Intro
+      type: text
+    - name: quality_verified_title
+      label: Quality Verified Title
+      type: string
+    - name: quality_verified_text
+      label: Quality Verified Text
+      type: text
+    - name: quality_unverified_title
+      label: Quality Unverified Title
+      type: string
+    - name: quality_unverified_text
+      label: Quality Unverified Text
+      type: text
+    - name: quality_missing_title
+      label: Quality Missing Title
+      type: string
+    - name: quality_missing_text
+      label: Quality Missing Text
+      type: text
+    - name: quality_review_title
+      label: Quality Review Title
+      type: string
+    - name: quality_review_text
+      label: Quality Review Text
+      type: text
+    - name: quality_disclaimer
+      label: Quality Disclaimer
+      type: text
+    - name: tools_eyebrow
+      label: Tools Eyebrow
+      type: string
+    - name: tools_title
+      label: Tools Title
+      type: string
+    - name: tools_intro
+      label: Tools Intro
+      type: text
+    - name: tool_apollo
+      label: Tool Apollo
+      type: string
+    - name: tool_hunter
+      label: Tool Hunter
+      type: string
+    - name: tool_google
+      label: Tool Google
+      type: string
+    - name: tool_linkedin
+      label: Tool Linkedin
+      type: string
+    - name: tool_zerobounce
+      label: Tool Zerobounce
+      type: string
+    - name: tool_million
+      label: Tool Million
+      type: string
+    - name: tool_clay
+      label: Tool Clay
+      type: string
+    - name: tool_sheets
+      label: Tool Sheets
+      type: string
+    - name: tool_excel
+      label: Tool Excel
+      type: string
+    - name: tool_chatgpt
+      label: Tool Chatgpt
+      type: string
+    - name: tool_claude
+      label: Tool Claude
+      type: string
+    - name: tools_note
+      label: Tools Note
+      type: text
+    - name: contact_eyebrow
+      label: Contact Eyebrow
+      type: string
+    - name: contact_title
+      label: Contact Title
+      type: string
+    - name: contact_intro
+      label: Contact Intro
+      type: text
+    - name: contact_email_label
+      label: Contact Email Label
+      type: string
+    - name: contact_whatsapp_label
+      label: Contact Whatsapp Label
+      type: string
+    - name: contact_linkedin_label
+      label: Contact Linkedin Label
+      type: string
+    - name: contact_response
+      label: Contact Response
+      type: text
+    - name: project_back
+      label: Project Back
+      type: string
+    - name: project_sample_label
+      label: Project Sample Label
+      type: string
+    - name: project_preview_title
+      label: Project Preview Title
+      type: string
+    - name: project_records_label
+      label: Project Records Label
+      type: string
+    - name: project_preview_label
+      label: Project Preview Label
+      type: string
+    - name: project_industry_label
+      label: Project Industry Label
+      type: string
+    - name: project_market_label
+      label: Project Market Label
+      type: string
+    - name: project_source_label
+      label: Project Source Label
+      type: string
+    - name: project_table_title
+      label: Project Table Title
+      type: string
+    - name: table_company
+      label: Table Company
+      type: string
+    - name: table_decision
+      label: Table Decision
+      type: string
+    - name: table_job
+      label: Table Job
+      type: string
+    - name: table_location
+      label: Table Location
+      type: string
+    - name: table_website
+      label: Table Website
+      type: string
+    - name: table_status
+      label: Table Status
+      type: string
+    - name: table_email
+      label: Table Email
+      type: string
+    - name: table_phone
+      label: Table Phone
+      type: string
+    - name: table_linkedin
+      label: Table Linkedin
+      type: string
+    - name: project_privacy
+      label: Project Privacy
+      type: string
+    - name: project_status_note
+      label: Project Status Note
+      type: text
+    - name: status_verified
+      label: Status Verified
+      type: string
+    - name: status_unverified
+      label: Status Unverified
+      type: string
+    - name: not_found
+      label: Not Found
+      type: string
+    - name: footer_line
+      label: Footer Line
+      type: string
+    - name: footer_note
+      label: Footer Note
+      type: text
+    - name: footer_rights
+      label: Footer Rights
+      type: string
+    - name: about_approach_label
+      label: About Approach Label
+      type: string
+    - name: quality_example_label
+      label: Quality Example Label
+      type: string
+    - name: quality_example_title
+      label: Quality Example Title
+      type: string
+    - name: quality_example_text
+      label: Quality Example Text
+      type: text
+    - name: tools_note_title
+      label: Tools Note Title
+      type: text
+    - name: records
+      label: Records
+      type: string
+  - name: ar
+    label: Arabic content
+    type: object
+    fields:
+    - name: nav_home
+      label: Nav Home
+      type: string
+    - name: nav_about
+      label: Nav About
+      type: string
+    - name: nav_services
+      label: Nav Services
+      type: string
+    - name: nav_portfolio
+      label: Nav Portfolio
+      type: string
+    - name: nav_process
+      label: Nav Process
+      type: string
+    - name: nav_quality
+      label: Nav Quality
+      type: string
+    - name: nav_tools
+      label: Nav Tools
+      type: string
+    - name: nav_contact
+      label: Nav Contact
+      type: string
+    - name: language_button
+      label: Language Button
+      type: string
+    - name: hero_kicker
+      label: Hero Kicker
+      type: string
+    - name: hero_title_first
+      label: Hero Title First
+      type: string
+    - name: hero_title_second
+      label: Hero Title Second
+      type: string
+    - name: hero_text
+      label: Hero Text
+      type: text
+    - name: hero_cta_contact
+      label: Hero Cta Contact
+      type: string
+    - name: hero_cta_portfolio
+      label: Hero Cta Portfolio
+      type: string
+    - name: hero_trust1
+      label: Hero Trust1
+      type: string
+    - name: hero_trust2
+      label: Hero Trust2
+      type: string
+    - name: hero_trust3
+      label: Hero Trust3
+      type: string
+    - name: hero_photo_label
+      label: Hero Photo Label
+      type: string
+    - name: hero_photo_caption
+      label: Hero Photo Caption
+      type: string
+    - name: home_services_eyebrow
+      label: Home Services Eyebrow
+      type: string
+    - name: home_services_title
+      label: Home Services Title
+      type: string
+    - name: home_services_intro
+      label: Home Services Intro
+      type: text
+    - name: home_projects_eyebrow
+      label: Home Projects Eyebrow
+      type: string
+    - name: home_projects_title
+      label: Home Projects Title
+      type: string
+    - name: home_projects_intro
+      label: Home Projects Intro
+      type: text
+    - name: home_process_eyebrow
+      label: Home Process Eyebrow
+      type: string
+    - name: home_process_title
+      label: Home Process Title
+      type: string
+    - name: home_process_intro
+      label: Home Process Intro
+      type: text
+    - name: home_quality_eyebrow
+      label: Home Quality Eyebrow
+      type: string
+    - name: home_quality_title
+      label: Home Quality Title
+      type: string
+    - name: home_quality_text
+      label: Home Quality Text
+      type: text
+    - name: home_quality_link
+      label: Home Quality Link
+      type: string
+    - name: home_contact_title
+      label: Home Contact Title
+      type: string
+    - name: home_contact_text
+      label: Home Contact Text
+      type: text
+    - name: home_contact_button
+      label: Home Contact Button
+      type: string
+    - name: about_eyebrow
+      label: About Eyebrow
+      type: string
+    - name: about_title
+      label: About Title
+      type: string
+    - name: about_lead
+      label: About Lead
+      type: text
+    - name: about_body1
+      label: About Body1
+      type: text
+    - name: about_body2
+      label: About Body2
+      type: text
+    - name: about_principles_title
+      label: About Principles Title
+      type: string
+    - name: about_principle1
+      label: About Principle1
+      type: string
+    - name: about_principle2
+      label: About Principle2
+      type: string
+    - name: about_principle3
+      label: About Principle3
+      type: string
+    - name: about_principle4
+      label: About Principle4
+      type: string
+    - name: services_eyebrow
+      label: Services Eyebrow
+      type: string
+    - name: services_title
+      label: Services Title
+      type: string
+    - name: services_intro
+      label: Services Intro
+      type: text
+    - name: svc1
+      label: Svc1
+      type: string
+    - name: svc1d
+      label: Svc1D
+      type: string
+    - name: svc2
+      label: Svc2
+      type: string
+    - name: svc2d
+      label: Svc2D
+      type: string
+    - name: svc3
+      label: Svc3
+      type: string
+    - name: svc3d
+      label: Svc3D
+      type: string
+    - name: svc4
+      label: Svc4
+      type: string
+    - name: svc4d
+      label: Svc4D
+      type: string
+    - name: svc5
+      label: Svc5
+      type: string
+    - name: svc5d
+      label: Svc5D
+      type: string
+    - name: svc6
+      label: Svc6
+      type: string
+    - name: svc6d
+      label: Svc6D
+      type: string
+    - name: services_note_title
+      label: Services Note Title
+      type: text
+    - name: services_note_text
+      label: Services Note Text
+      type: text
+    - name: portfolio_eyebrow
+      label: Portfolio Eyebrow
+      type: string
+    - name: portfolio_title
+      label: Portfolio Title
+      type: string
+    - name: portfolio_intro
+      label: Portfolio Intro
+      type: text
+    - name: portfolio_note
+      label: Portfolio Note
+      type: text
+    - name: view_project
+      label: View Project
+      type: string
+    - name: process_eyebrow
+      label: Process Eyebrow
+      type: string
+    - name: process_title
+      label: Process Title
+      type: string
+    - name: process_intro
+      label: Process Intro
+      type: text
+    - name: step1_title
+      label: Step1 Title
+      type: string
+    - name: step1_text
+      label: Step1 Text
+      type: text
+    - name: step2_title
+      label: Step2 Title
+      type: string
+    - name: step2_text
+      label: Step2 Text
+      type: text
+    - name: step3_title
+      label: Step3 Title
+      type: string
+    - name: step3_text
+      label: Step3 Text
+      type: text
+    - name: step4_title
+      label: Step4 Title
+      type: string
+    - name: step4_text
+      label: Step4 Text
+      type: text
+    - name: process_deliverables_title
+      label: Process Deliverables Title
+      type: string
+    - name: deliverable1
+      label: Deliverable1
+      type: string
+    - name: deliverable2
+      label: Deliverable2
+      type: string
+    - name: deliverable3
+      label: Deliverable3
+      type: string
+    - name: deliverable4
+      label: Deliverable4
+      type: string
+    - name: deliverable5
+      label: Deliverable5
+      type: string
+    - name: quality_eyebrow
+      label: Quality Eyebrow
+      type: string
+    - name: quality_title
+      label: Quality Title
+      type: string
+    - name: quality_intro
+      label: Quality Intro
+      type: text
+    - name: quality_verified_title
+      label: Quality Verified Title
+      type: string
+    - name: quality_verified_text
+      label: Quality Verified Text
+      type: text
+    - name: quality_unverified_title
+      label: Quality Unverified Title
+      type: string
+    - name: quality_unverified_text
+      label: Quality Unverified Text
+      type: text
+    - name: quality_missing_title
+      label: Quality Missing Title
+      type: string
+    - name: quality_missing_text
+      label: Quality Missing Text
+      type: text
+    - name: quality_review_title
+      label: Quality Review Title
+      type: string
+    - name: quality_review_text
+      label: Quality Review Text
+      type: text
+    - name: quality_disclaimer
+      label: Quality Disclaimer
+      type: text
+    - name: tools_eyebrow
+      label: Tools Eyebrow
+      type: string
+    - name: tools_title
+      label: Tools Title
+      type: string
+    - name: tools_intro
+      label: Tools Intro
+      type: text
+    - name: tool_apollo
+      label: Tool Apollo
+      type: string
+    - name: tool_hunter
+      label: Tool Hunter
+      type: string
+    - name: tool_google
+      label: Tool Google
+      type: string
+    - name: tool_linkedin
+      label: Tool Linkedin
+      type: string
+    - name: tool_zerobounce
+      label: Tool Zerobounce
+      type: string
+    - name: tool_million
+      label: Tool Million
+      type: string
+    - name: tool_clay
+      label: Tool Clay
+      type: string
+    - name: tool_sheets
+      label: Tool Sheets
+      type: string
+    - name: tool_excel
+      label: Tool Excel
+      type: string
+    - name: tool_chatgpt
+      label: Tool Chatgpt
+      type: string
+    - name: tool_claude
+      label: Tool Claude
+      type: string
+    - name: tools_note
+      label: Tools Note
+      type: text
+    - name: contact_eyebrow
+      label: Contact Eyebrow
+      type: string
+    - name: contact_title
+      label: Contact Title
+      type: string
+    - name: contact_intro
+      label: Contact Intro
+      type: text
+    - name: contact_email_label
+      label: Contact Email Label
+      type: string
+    - name: contact_whatsapp_label
+      label: Contact Whatsapp Label
+      type: string
+    - name: contact_linkedin_label
+      label: Contact Linkedin Label
+      type: string
+    - name: contact_response
+      label: Contact Response
+      type: text
+    - name: project_back
+      label: Project Back
+      type: string
+    - name: project_sample_label
+      label: Project Sample Label
+      type: string
+    - name: project_preview_title
+      label: Project Preview Title
+      type: string
+    - name: project_records_label
+      label: Project Records Label
+      type: string
+    - name: project_preview_label
+      label: Project Preview Label
+      type: string
+    - name: project_industry_label
+      label: Project Industry Label
+      type: string
+    - name: project_market_label
+      label: Project Market Label
+      type: string
+    - name: project_source_label
+      label: Project Source Label
+      type: string
+    - name: project_table_title
+      label: Project Table Title
+      type: string
+    - name: table_company
+      label: Table Company
+      type: string
+    - name: table_decision
+      label: Table Decision
+      type: string
+    - name: table_job
+      label: Table Job
+      type: string
+    - name: table_location
+      label: Table Location
+      type: string
+    - name: table_website
+      label: Table Website
+      type: string
+    - name: table_status
+      label: Table Status
+      type: string
+    - name: table_email
+      label: Table Email
+      type: string
+    - name: table_phone
+      label: Table Phone
+      type: string
+    - name: table_linkedin
+      label: Table Linkedin
+      type: string
+    - name: project_privacy
+      label: Project Privacy
+      type: string
+    - name: project_status_note
+      label: Project Status Note
+      type: text
+    - name: status_verified
+      label: Status Verified
+      type: string
+    - name: status_unverified
+      label: Status Unverified
+      type: string
+    - name: not_found
+      label: Not Found
+      type: string
+    - name: footer_line
+      label: Footer Line
+      type: string
+    - name: footer_note
+      label: Footer Note
+      type: text
+    - name: footer_rights
+      label: Footer Rights
+      type: string
+    - name: about_approach_label
+      label: About Approach Label
+      type: string
+    - name: quality_example_label
+      label: Quality Example Label
+      type: string
+    - name: quality_example_title
+      label: Quality Example Title
+      type: string
+    - name: quality_example_text
+      label: Quality Example Text
+      type: text
+    - name: tools_note_title
+      label: Tools Note Title
+      type: text
+    - name: records
+      label: Records
+      type: string
+  - name: media
+    label: Website images
+    type: object
+    fields:
+    - name: office_image
+      label: Office atmosphere image
+      type: image
+      options:
+        media: images
+        path: assets
+        extensions:
+        - jpg
+        - jpeg
+        - png
+        - webp
+    - name: profile_image
+      label: Profile photo
+      type: image
+      options:
+        media: images
+        path: assets
+        extensions:
+        - jpg
+        - jpeg
+        - png
+        - webp
+  - name: theme
+    label: Design settings
+    type: object
+    fields:
+    - name: primary_color
+      label: Primary navy color (hex)
+      type: string
+    - name: accent_color
+      label: Accent mint color (hex)
+      type: string
+    - name: page_background
+      label: Page background color (hex)
+      type: string
+    - name: card_background
+      label: Card background color (hex)
+      type: string
+    - name: font_scale
+      label: Text size scale (e.g. 1.0)
+      type: number
+- name: portfolio_projects
+  label: Portfolio project previews
+  type: file
+  path: data/projects.json
+  format: json
+  list: true
+  fields:
+  - name: id
+    type: string
+  - name: title
+    type: string
+  - name: title_ar
+    label: Arabic title
+    type: string
+  - name: industry
+    type: string
+  - name: industry_ar
+    label: Arabic industry
+    type: string
+  - name: market
+    type: string
+  - name: market_ar
+    label: Arabic market
+    type: string
+  - name: source_count
+    type: number
+  - name: preview_count
+    type: number
+  - name: summary
+    type: text
+  - name: summary_ar
+    label: Arabic summary
+    type: text
+  - name: caveat
+    type: text
+  - name: caveat_ar
+    label: Arabic caveat
+    type: text
+  - name: source
+    type: string
+  - name: source_ar
+    label: Arabic source
+    type: string
+  - name: rows
+    label: Public sample records
+    type: object
+    list: true
+    fields:
+    - name: company
+      type: string
+    - name: decision_maker
+      label: Full decision-maker name
+      type: string
+    - name: job_title
+      type: string
+    - name: location
+      type: string
+    - name: website
+      type: string
+    - name: email_status
+      type: string
+    - name: email_masked
+      type: string
+    - name: phone_masked
+      type: string
+    - name: linkedin_masked
+      type: string
