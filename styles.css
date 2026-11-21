@@ -301,3 +301,11 @@ body[dir="rtl"] .footer-links,body[dir="rtl"] .footer-contact{text-align:right}
  body[dir="rtl"] .visual-stamp{left:13px}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
+
+/* Logo and official-style contact icons */
+.brand-mark{display:block;object-fit:contain;background:transparent;border:0;padding:0;border-radius:0}
+.profile-caption .brand-mark{object-fit:contain;background:transparent;border:0;padding:0;border-radius:0}
+.footer-contact a{display:flex;align-items:center;gap:9px;flex-wrap:wrap}
+.social-icon{width:20px;height:20px;object-fit:contain;flex:none}
+.social-label{display:inline-block}
+.contact-method-icon img{width:25px;height:25px;object-fit:contain}
