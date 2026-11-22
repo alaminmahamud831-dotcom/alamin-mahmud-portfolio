@@ -1,0 +1,31 @@
+{
+  "id": "./",
+  "name": "Alamin Mahmud — B2B Lead Research",
+  "short_name": "Alamin M.",
+  "description": "B2B Lead Research Specialist. B2B prospect list building, decision-maker research, business contact research and structured lead data.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "theme_color": "#10233d",
+  "background_color": "#f8fafc",
+  "icons": [
+    {
+      "src": "assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
