@@ -79,7 +79,10 @@
   function updateContact() {
     const contact = SITE.contact || {};
     $$("[data-contact-name]").forEach(el => el.textContent = contact.name || "Alamin Mahmud");
-    $$("[data-contact-email]").forEach(el => el.textContent = contact.email || "");
+    $$("[data-contact-email]").forEach(el => {
+      if (el.tagName === "A" && el.querySelector("[data-contact-email], img")) return;
+      el.textContent = contact.email || "";
+    });
     $$("[data-contact-email-link]").forEach(el => el.href = `mailto:${contact.email || ""}`);
     $$("[data-contact-whatsapp]").forEach(el => {
       el.href = `https://wa.me/${(contact.whatsapp || "").replace(/\D/g,"")}`;

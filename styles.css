@@ -65,7 +65,7 @@ h1{font-size:clamp(42px,5.25vw,68px);font-weight:800;letter-spacing:-.065em}
 .hero-visual:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,26,44,.02) 40%,rgba(10,26,44,.28) 100%)}
 .hero-visual>img{width:100%;height:100%;object-fit:cover;object-position:43% center}
 .visual-label{position:absolute;z-index:2;left:22px;bottom:23px;background:rgba(255,255,255,.95);backdrop-filter:blur(10px);border-radius:17px;padding:13px 16px;display:flex;align-items:center;gap:11px;box-shadow:var(--shadow-soft);max-width:calc(100% - 44px)}
-.visual-label-mark{width:35px;height:35px;border-radius:11px;display:grid;place-items:center;background:var(--navy);color:var(--mint);font-weight:900;font-size:12px}
+.visual-label-mark{display:block;width:42px;height:35px;object-fit:contain;background:transparent;border:0;padding:0;border-radius:0;flex:none}
 .visual-label strong,.visual-label small{display:block}
 .visual-label strong{color:var(--navy);font-size:12px}
 .visual-label small{color:#718196;font-size:10px;margin-top:2px}
@@ -171,7 +171,7 @@ h1{font-size:clamp(42px,5.25vw,68px);font-weight:800;letter-spacing:-.065em}
 .tool-card p{font-size:12px;line-height:1.65;margin:0}
 .contact-layout{display:grid;grid-template-columns:.82fr 1.18fr;gap:65px;align-items:start}
 .contact-aside{padding:31px;background:linear-gradient(145deg,#eaf3f0,#f5f8fa);border:1px solid #e0ebe6;border-radius:25px}
-.contact-monogram{width:56px;height:56px;border-radius:18px;background:var(--navy);color:var(--mint);display:grid;place-items:center;font:900 18px "Manrope";margin-bottom:22px}
+.contact-monogram{display:inline-block;width:64px;height:auto;object-fit:contain;background:transparent;border:0;padding:0;border-radius:0;margin-bottom:22px}
 .contact-aside h2{font-size:27px;margin:0 0 5px}
 .contact-aside>p:first-of-type{font-size:12px;color:#718195;font-weight:700}
 .contact-instruction{font-size:13px;line-height:1.85;margin-top:22px}
@@ -305,7 +305,7 @@ body[dir="rtl"] .footer-links,body[dir="rtl"] .footer-contact{text-align:right}
 /* Logo and official-style contact icons */
 .brand-mark{display:block;object-fit:contain;background:transparent;border:0;padding:0;border-radius:0}
 .profile-caption .brand-mark{object-fit:contain;background:transparent;border:0;padding:0;border-radius:0}
-.footer-contact a{display:flex;align-items:center;gap:9px;flex-wrap:wrap}
+.footer-contact a{display:flex;align-items:center;gap:9px;flex-wrap:nowrap}
 .social-icon{width:20px;height:20px;object-fit:contain;flex:none}
-.social-label{display:inline-block}
+.social-label{display:inline-block;min-width:0;overflow-wrap:anywhere}
 .contact-method-icon img{width:25px;height:25px;object-fit:contain}
